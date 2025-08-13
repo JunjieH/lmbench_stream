@@ -1,0 +1,13 @@
+Compile:
+make TEST=testname [PAGE=4K] [SIZE=16*KB] [STRIDE=1024] [WARMLOOP=2] [BENCHLOOP=10] [PAGE_RANDOM=1]
+TEST: source filename
+PAGE: optional, support 1GB/2MB/4KB page, default PAGE=1G
+SIZE: memory access size
+STRIDE: fixed delta address value, used by stride/thrash latency test
+WARMLOOP: warmup loop number
+BENCHLOOP: bench loop number
+PAGE_RANDOM: random page mapping, default PAGE_RANDOM=0
+
+Sim:
+./build/RISCV/gem5.opt --debug-flags=Exec --debug-start=1 --debug-file=lmbench_bw_rd_16KB_4K.out --stats-file=lmbench_bw_rd_16KB_4K.stats.txt ./configs/example/fs.py --cpu-type="O3CPU" --caches --mem-size="8GB" --kernel=/ic/proj/bluewhale/bailongfei.luffy/gem5/tests/bench/lmbench/bin/lmbench_bw_rd_16KB_4K.elf
+

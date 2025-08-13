@@ -1,0 +1,6 @@
+revision:169acd5baf090732c8c69f4bba5dde08f5711272
+version:1.0.0.3
+pub date:2025-08-08 17:48:41
+arch:x86_64
+region:cn
+repo name:soarbench/micro_bench/lmbench_riscv_64_vector

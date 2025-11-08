@@ -1,0 +1,101 @@
+specinvoke r4356
+ Invoked as: /data00/home/zhuna.1024/spec-cpu-2017/bin/specinvoke -d /data00/home/zhuna.1024/spec-cpu-2017/output/my-hello-gcc-runsetup/benchspec/CPU/525.x264_r/run/run_base_refrate_my-hello-gcc-runsetup.0000 -f compare.cmd -E -e compare.err -o compare.stdout
+timer ticks over every 1000 ns
+ Environment in effect for these runs:
+ # 1: NVM_CD_FLAGS=
+ # 2: NVM_BIN=/root/.nvm/versions/node/v16.14.2/bin
+ # 3: SHLVL=3
+ # 4: PWD=/data00/home/zhuna.1024/spec-cpu-2017
+ # 5: CFLAGS= -fdebug-info-for-profiling
+ # 6: MAIL=/var/mail/zhuna.1024
+ # 7: COVERITY_PATH=/tmp/cov/cov-analysis-linux64-2022.12/bin
+ # 8: SPEC=/data00/home/zhuna.1024/spec-cpu-2017
+ # 9: USER=zhuna.1024
+ #10: LOGNAME=zhuna.1024
+ #11: TERM=xterm-256color
+ #12: COLORTERM=truecolor
+ #13: BYTED_HOST_IP=10.198.89.166
+ #14: NVM_DIR=/root/.nvm
+ #15: LD_LIBRARY_PATH=/usr/lib64/:/usr/lib/:/lib64
+ #16: MY_HOST_IPV6=fdbd:dc01:20:295::166
+ #17: VSCODE_IPC_HOOK_CLI=/run/user/0/vscode-ipc-3a2bf2fe-a736-4e5b-a10a-ec5c2490aad9.sock
+ #18: HOME=/data00/home/zhuna.1024
+ #19: XDG_SESSION_ID=22141
+ #20: LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+ #21: MY_HOST_IP=10.198.89.166
+ #22: PATH=/data00/home/zhuna.1024/spec-cpu-2017/bin:/root/.nvm/versions/node/v16.14.2/bin:/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/tmp/cov/cov-analysis-linux64-2022.12/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/tiger/ss_bin:/usr/local/jdk/bin:/usr/sbin/:/opt/tiger/ss_lib/bin:/opt/tiger/ss_lib/python_package/lib/python2.7/site-packages/django/bin:/opt/tiger/yarn_deploy/hadoop/bin/:/opt/tiger/yarn_deploy/hive/bin/:/opt/tiger/yarn_deploy/jdk/bin/:/opt/tiger/hadoop_deploy/jython-2.5.2/bin:/usr/local/go/bin:/root/go/bin
+ #23: BYTED_HOST_IPV6=fdbd:dc01:20:295::166
+ #24: XDG_RUNTIME_DIR=/run/user/3003
+ #25: VSCODE_GIT_ASKPASS_MAIN=/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js
+ #26: _=/data00/home/zhuna.1024/spec-cpu-2017/bin/runcpu
+ #27: BROWSER=/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh
+ #28: SPECPERLLIB=/data00/home/zhuna.1024/spec-cpu-2017/bin/lib:/data00/home/zhuna.1024/spec-cpu-2017/bin
+ #29: SSH_CONNECTION=10.25.69.208 19990 10.198.89.166 22
+ #30: LC_ALL=en_US.utf-8
+ #31: XDG_SESSION_CLASS=user
+ #32: LANG=en_US.UTF-8
+ #33: LS_OPTIONS=--color=auto
+ #34: VSCODE_GIT_IPC_HANDLE=/run/user/0/vscode-git-980e3d066e.sock
+ #35: TERM_PROGRAM=vscode
+ #36: TERM_PROGRAM_VERSION=1.78.2
+ #37: SPECDB_PWD=/data00/home/zhuna.1024/spec-cpu-2017
+ #38: CUSTOM_CXXFLAGS= -fdebug-info-for-profiling
+ #39: XDG_SESSION_TYPE=tty
+ #40: CUSTOM_CFLAGS= -fdebug-info-for-profiling
+ #41: SHELL=/bin/bash
+ #42: NVM_INC=/root/.nvm/versions/node/v16.14.2/include/node
+ #43: VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+ #44: DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+ #45: LC_LANG=C
+ #46: GIT_ASKPASS=/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh
+ #47: LIBC_FATAL_STDERR_=1
+ #48: CXXFLAGS= -fdebug-info-for-profiling
+ #49: VSCODE_GIT_ASKPASS_NODE=/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node
+ #50: SSH_CLIENT=10.25.69.208 19990 22
+ #51: XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ #52: OMP_NUM_THREADS=1
+ #53: OMP_THREAD_LIMIT=1
+running commands in compare.cmd 1 times
+runs started at		1686306125, 272071000, Fri Jun  9 18:22:05 2023
+run 1 started at	1686306125, 272092000, Fri Jun  9 18:22:05 2023
+child started: 0,	1686306125, 272098000, pid=2573693, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_200.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_200.org.tga > imagevalidate_frame_200.out 2>> imagevalidate_frame_200.err'
+child finished: 0,	1686306125, 304799000, sec=0, nsec=32701000, pid=2573693, rc=0
+child started: 0,	1686306125, 304812000, pid=2573695, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_400.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_400.org.tga > imagevalidate_frame_400.out 2>> imagevalidate_frame_400.err'
+child finished: 0,	1686306125, 337225000, sec=0, nsec=32413000, pid=2573695, rc=0
+child started: 0,	1686306125, 337237000, pid=2573697, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_600.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_600.org.tga > imagevalidate_frame_600.out 2>> imagevalidate_frame_600.err'
+child finished: 0,	1686306125, 369824000, sec=0, nsec=32587000, pid=2573697, rc=0
+child started: 0,	1686306125, 369835000, pid=2573713, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_700.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_700.org.tga > imagevalidate_frame_700.out 2>> imagevalidate_frame_700.err'
+child finished: 0,	1686306125, 402772000, sec=0, nsec=32937000, pid=2573713, rc=0
+child started: 0,	1686306125, 402784000, pid=2573728, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_800.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_800.org.tga > imagevalidate_frame_800.out 2>> imagevalidate_frame_800.err'
+child finished: 0,	1686306125, 435301000, sec=0, nsec=32517000, pid=2573728, rc=0
+child started: 0,	1686306125, 435312000, pid=2573730, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_900.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_900.org.tga > imagevalidate_frame_900.out 2>> imagevalidate_frame_900.err'
+child finished: 0,	1686306125, 468251000, sec=0, nsec=32939000, pid=2573730, rc=0
+child started: 0,	1686306125, 468261000, pid=2573732, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_999.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_999.org.tga > imagevalidate_frame_999.out 2>> imagevalidate_frame_999.err'
+child finished: 0,	1686306125, 501143000, sec=0, nsec=32882000, pid=2573732, rc=0
+child started: 0,	1686306125, 501154000, pid=2573734, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_1100.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_1100.org.tga > imagevalidate_frame_1100.out 2>> imagevalidate_frame_1100.err'
+child finished: 0,	1686306125, 533743000, sec=0, nsec=32589000, pid=2573734, rc=0
+child started: 0,	1686306125, 533754000, pid=2573736, '../run_base_refrate_my-hello-gcc-runsetup.0000/imagevalidate_525_base.my-hello-gcc-runsetup -avg -threshold 0.5 -maxthreshold 20 frame_1249.yuv /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/compare/frame_1249.org.tga > imagevalidate_frame_1249.out 2>> imagevalidate_frame_1249.err'
+child finished: 0,	1686306125, 566379000, sec=0, nsec=32625000, pid=2573736, rc=0
+child started: 0,	1686306125, 566390000, pid=2573742, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_1100.out imagevalidate_frame_1100.out > imagevalidate_frame_1100.out.cmp'
+child finished: 0,	1686306125, 691876000, sec=0, nsec=125486000, pid=2573742, rc=0
+child started: 0,	1686306125, 691892000, pid=2573757, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_1249.out imagevalidate_frame_1249.out > imagevalidate_frame_1249.out.cmp'
+child finished: 0,	1686306125, 817785000, sec=0, nsec=125893000, pid=2573757, rc=0
+child started: 0,	1686306125, 817799000, pid=2573759, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_200.out imagevalidate_frame_200.out > imagevalidate_frame_200.out.cmp'
+child finished: 0,	1686306125, 943703000, sec=0, nsec=125904000, pid=2573759, rc=0
+child started: 0,	1686306125, 943719000, pid=2573774, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_400.out imagevalidate_frame_400.out > imagevalidate_frame_400.out.cmp'
+child finished: 0,	1686306126, 069540000, sec=0, nsec=125821000, pid=2573774, rc=0
+child started: 0,	1686306126, 069556000, pid=2573776, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_600.out imagevalidate_frame_600.out > imagevalidate_frame_600.out.cmp'
+child finished: 0,	1686306126, 196907000, sec=0, nsec=127351000, pid=2573776, rc=0
+child started: 0,	1686306126, 196926000, pid=2573791, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_700.out imagevalidate_frame_700.out > imagevalidate_frame_700.out.cmp'
+child finished: 0,	1686306126, 323114000, sec=0, nsec=126188000, pid=2573791, rc=0
+child started: 0,	1686306126, 323128000, pid=2573793, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_800.out imagevalidate_frame_800.out > imagevalidate_frame_800.out.cmp'
+child finished: 0,	1686306126, 449027000, sec=0, nsec=125899000, pid=2573793, rc=0
+child started: 0,	1686306126, 449041000, pid=2573813, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_900.out imagevalidate_frame_900.out > imagevalidate_frame_900.out.cmp'
+child finished: 0,	1686306126, 575264000, sec=0, nsec=126223000, pid=2573813, rc=0
+child started: 0,	1686306126, 575279000, pid=2573836, '/data00/home/zhuna.1024/spec-cpu-2017/bin/specperl /data00/home/zhuna.1024/spec-cpu-2017/bin/harness/specdiff -m -l 10 --reltol 0.085 /data00/home/zhuna.1024/spec-cpu-2017/benchspec/CPU/525.x264_r/data/refrate/output/imagevalidate_frame_999.out imagevalidate_frame_999.out > imagevalidate_frame_999.out.cmp'
+child finished: 0,	1686306126, 701017000, sec=0, nsec=125738000, pid=2573836, rc=0
+run 1 finished at:	1686306126, 701035000, Fri Jun  9 18:22:06 2023
+run 1 elapsed time:	         1, 428943000, 1.428943000
+runs finished at	1686306126, 701058000, Fri Jun  9 18:22:06 2023
+runs elapsed time:	         1, 428987000, 1.428987000
+specinvoke exit: rc=0

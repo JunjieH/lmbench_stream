@@ -1,0 +1,1 @@
+$share/qemu/experimental/build/qemu-riscv64 -cpu rv64,v=true,zba=true,zbb=true,vlen=128,zicond=true  -plugin $share/qemu/plugin/libinsn.so -d plugin -D qemu_insn.txt ../502.gcc_r.origin.elf gcc-pp.c -O2 -finline-limit=36000 -fpic -o gcc-pp.opts-O2_-finline-limit_36000_-fpic.s

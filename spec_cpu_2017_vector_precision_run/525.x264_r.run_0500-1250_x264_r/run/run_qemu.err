@@ -1,0 +1,24 @@
+open file /data04/houjunjie/perf_regression/spec_cpu_2017_jumptable_5_slice/525.x264_r.run_0500-1250_x264_r/roi_icount.list 
+yuv [info]: 1280x720p 0:0 @ 25/1 fps (cfr)
+x264 [info]: using cpu capabilities: none!
+x264 [info]: profile High, level 3.1
+                                                                               x264 [info]: frame I:4     Avg QP:18.96  size:113826
+x264 [info]: frame P:298   Avg QP:22.29  size: 20975
+x264 [info]: frame B:448   Avg QP:27.79  size:  2522
+x264 [info]: consecutive B-frames: 12.7% 11.3% 31.0% 45.0%
+x264 [info]: mb I  I16..4:  7.5% 69.6% 22.9%
+x264 [info]: mb P  I16..4:  0.8%  6.2%  1.8%  P16..4: 33.3% 14.0%  8.5%  0.0%  0.0%    skip:35.3%
+x264 [info]: mb B  I16..4:  0.1%  0.4%  0.1%  B16..8: 27.9%  2.4%  0.6%  direct: 0.5%  skip:68.2%  L0:34.7% L1:60.1% BI: 5.3%
+x264 [info]: 8x8 transform intra:70.4% inter:68.1%
+x264 [info]: coded y,uvDC,uvAC intra: 74.3% 82.9% 40.5% inter: 10.9% 15.7% 1.4%
+x264 [info]: i16 v,h,dc,p: 20% 30% 11% 39%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 22% 14%  6%  7%  8%  8%  7% 10%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 23% 13%  6%  8%  8%  9%  6%  8%
+x264 [info]: i8c dc,h,v,p: 44% 24% 21% 11%
+x264 [info]: Weighted P-Frames: Y:0.0%
+x264 [info]: ref P L0: 74.8% 17.0%  6.3%  2.0%
+x264 [info]: ref B L0: 93.4%  6.0%  0.7%
+x264 [info]: ref B L1: 96.9%  3.1%
+x264 [info]: kb/s:2089.52
+
+encoded 750 frames, inf fps, 2089.52 kb/s

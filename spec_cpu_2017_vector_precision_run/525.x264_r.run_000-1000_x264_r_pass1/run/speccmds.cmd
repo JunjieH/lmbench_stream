@@ -1,0 +1,56 @@
+-E BROWSER /root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh
+-E BYTED_HOST_IP 10.198.89.166
+-E BYTED_HOST_IPV6 fdbd:dc01:20:295::166
+-E CFLAGS ' -fdebug-info-for-profiling'
+-E COLORTERM truecolor
+-E COVERITY_PATH /tmp/cov/cov-analysis-linux64-2022.12/bin
+-E CUSTOM_CFLAGS ' -fdebug-info-for-profiling'
+-E CUSTOM_CXXFLAGS ' -fdebug-info-for-profiling'
+-E CXXFLAGS ' -fdebug-info-for-profiling'
+-E DBUS_SESSION_BUS_ADDRESS 'unix:path=/run/user/0/bus'
+-E GIT_ASKPASS /root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh
+-E HOME /data00/home/zhuna.1024
+-E LANG en_US.UTF-8
+-E LC_ALL en_US.utf-8
+-E LC_LANG C
+-E LD_LIBRARY_PATH /usr/lib64/:/usr/lib/:/lib64
+-E LIBC_FATAL_STDERR_ 1
+-E LOGNAME zhuna.1024
+-E LS_COLORS 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+-E LS_OPTIONS '--color=auto'
+-E MAIL /var/mail/zhuna.1024
+-E MY_HOST_IP 10.198.89.166
+-E MY_HOST_IPV6 fdbd:dc01:20:295::166
+-E NVM_BIN /root/.nvm/versions/node/v16.14.2/bin
+-E NVM_CD_FLAGS ''
+-E NVM_DIR /root/.nvm
+-E NVM_INC /root/.nvm/versions/node/v16.14.2/include/node
+-E OMP_NUM_THREADS 1
+-E OMP_THREAD_LIMIT 1
+-E PATH /data00/home/zhuna.1024/spec-cpu-2017/bin:/root/.nvm/versions/node/v16.14.2/bin:/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/tmp/cov/cov-analysis-linux64-2022.12/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/tiger/ss_bin:/usr/local/jdk/bin:/usr/sbin/:/opt/tiger/ss_lib/bin:/opt/tiger/ss_lib/python_package/lib/python2.7/site-packages/django/bin:/opt/tiger/yarn_deploy/hadoop/bin/:/opt/tiger/yarn_deploy/hive/bin/:/opt/tiger/yarn_deploy/jdk/bin/:/opt/tiger/hadoop_deploy/jython-2.5.2/bin:/usr/local/go/bin:/root/go/bin
+-E SHELL /bin/bash
+-E SPEC /data00/home/zhuna.1024/spec-cpu-2017
+-E SPECDB_PWD /data00/home/zhuna.1024/spec-cpu-2017
+-E SPECPERLLIB /data00/home/zhuna.1024/spec-cpu-2017/bin/lib:/data00/home/zhuna.1024/spec-cpu-2017/bin
+-E SSH_CLIENT '10.25.69.208 19990 22'
+-E SSH_CONNECTION '10.25.69.208 19990 10.198.89.166 22'
+-E TERM xterm-256color
+-E TERM_PROGRAM vscode
+-E TERM_PROGRAM_VERSION 1.78.2
+-E USER zhuna.1024
+-E VSCODE_GIT_ASKPASS_EXTRA_ARGS ''
+-E VSCODE_GIT_ASKPASS_MAIN /root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js
+-E VSCODE_GIT_ASKPASS_NODE /root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node
+-E VSCODE_GIT_IPC_HANDLE /run/user/0/vscode-git-980e3d066e.sock
+-E VSCODE_IPC_HOOK_CLI /run/user/0/vscode-ipc-3a2bf2fe-a736-4e5b-a10a-ec5c2490aad9.sock
+-E XDG_DATA_DIRS /usr/local/share:/usr/share:/var/lib/snapd/desktop
+-E XDG_RUNTIME_DIR /run/user/3003
+-E XDG_SESSION_CLASS user
+-E XDG_SESSION_ID 22141
+-E XDG_SESSION_TYPE tty
+-r
+-N C
+-C /data00/home/zhuna.1024/spec-cpu-2017/output/my-hello-gcc-runsetup/benchspec/CPU/525.x264_r/run/run_base_refrate_my-hello-gcc-runsetup.0000
+-o run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass1.out -e run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass1.err ../run_base_refrate_my-hello-gcc-runsetup.0000/x264_r_base.my-hello-gcc-runsetup --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o BuckBunny_New.264 BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass1.out 2>> run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass1.err
+-o run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass2.out -e run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass2.err ../run_base_refrate_my-hello-gcc-runsetup.0000/x264_r_base.my-hello-gcc-runsetup --pass 2 --stats x264_stats.log --bitrate 1000 --dumpyuv 200 --frames 1000 -o BuckBunny_New.264 BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass2.out 2>> run_000-1000_x264_r_base.my-hello-gcc-runsetup_x264_pass2.err
+-o run_0500-1250_x264_r_base.my-hello-gcc-runsetup_x264.out -e run_0500-1250_x264_r_base.my-hello-gcc-runsetup_x264.err ../run_base_refrate_my-hello-gcc-runsetup.0000/x264_r_base.my-hello-gcc-runsetup --seek 500 --dumpyuv 200 --frames 1250 -o BuckBunny_New.264 BuckBunny.yuv 1280x720 > run_0500-1250_x264_r_base.my-hello-gcc-runsetup_x264.out 2>> run_0500-1250_x264_r_base.my-hello-gcc-runsetup_x264.err

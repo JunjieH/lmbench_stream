@@ -1,0 +1,1 @@
+../525.x264_r.origin.elf --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o BuckBunny_New.264 BuckBunny.yuv 1280x720

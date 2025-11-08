@@ -1,0 +1,1 @@
+$share/qemu/experimental/build/qemu-riscv64 -cpu rv64,v=true,zba=true,zbb=true,vlen=128,zicond=true  -plugin $share/qemu/plugin/libinsn.so -d plugin -D qemu_insn.txt ../525.x264_r.origin.elf --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o BuckBunny_New.264 BuckBunny.yuv 1280x720

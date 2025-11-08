@@ -1,0 +1,1 @@
+$share/qemu/experimental/build/qemu-riscv64 -cpu rv64,v=true,zba=true,zbb=true,vlen=128,zicond=true  -plugin $share/qemu/plugin/libinsn.so -d plugin -D qemu_insn.txt ../502.gcc_r.origin.elf gcc-smaller.c -O3 -fipa-pta -o gcc-smaller.opts-O3_-fipa-pta.s

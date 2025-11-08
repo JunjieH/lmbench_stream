@@ -1,0 +1,1 @@
+$share/qemu/experimental/build/qemu-riscv64 -cpu rv64,v=true,zba=true,zbb=true,vlen=128,zicond=true  -plugin $share/qemu/plugin/libinsn.so -d plugin -D qemu_insn.txt ../557.xz_r.origin.elf input.combined.xz 250 a841f68f38572a49d86226b7ff5baeb31bd19dc637a922a972b2e6d1257a890f6a544ecab967c313e370478c74f760eb229d4eef8a8d2836d233d3e9dd1430bf 40401484 41217675 7

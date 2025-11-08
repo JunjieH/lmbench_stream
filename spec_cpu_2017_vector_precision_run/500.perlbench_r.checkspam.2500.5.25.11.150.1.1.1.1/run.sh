@@ -1,0 +1,1 @@
+../500.perlbench_r.origin.elf -I./lib checkspam.pl 2500 5 25 11 150 1 1 1 1

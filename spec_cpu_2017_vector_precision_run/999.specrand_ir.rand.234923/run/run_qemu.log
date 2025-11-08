@@ -1,0 +1,3 @@
+Cannoli: gpr_offset 24 fpr_offset 4712 fpr_width 8 simd_offset 544 simd_width 4096 inst_count_offset 5128 dump_offset 9224 arch_state_size 9248 
+simpoint interval (include warmup) 200000000 
+open file /data04/houjunjie/perf_regression/spec_cpu_2017_jumptable_5_slice/999.specrand_ir.rand.234923/roi_icount.list 
